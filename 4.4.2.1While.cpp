@@ -1,0 +1,17 @@
+#include <cmath>
+#include "std_lib_facilities.h"
+
+//calculate and print a table of squares 0-99
+
+int main()
+{
+
+int i = 0;   //start from 0
+
+while( i < 100 ){
+    
+     cout << i << '\t' << sqrt(i)<<'\n';
+     ++i;
+}
+ 
+}
